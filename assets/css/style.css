@@ -42,14 +42,11 @@ nav {
 
 .banner-container {
   width: 100vw;
-  height: 100px;          /* only show 100px stripe */
-  overflow: hidden;      /* hide the rest of the image */
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+  height: 100px;
+  overflow: hidden;
+  border: 2px solid red; /* TEMPORARY for debugging */
 }
+
 
 .banner-image {
   width: 100%;

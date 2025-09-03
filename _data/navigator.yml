@@ -5,3 +5,14 @@ main:
     url: /projects/
   - title: Contact
     url: /contact/
+
+social:
+  - title: GitHub
+    url: https://github.com/EwerthonMelzani
+    icon: fab fa-github
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/ewerthonmelzani/
+    icon: fab fa-linkedin
+  - title: Email
+    url: mailto:yourname@example.com
+    icon: fas fa-envelope

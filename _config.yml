@@ -12,9 +12,6 @@ remote_theme: abhinavs/moonwalk
 plugins:
   - jekyll-remote-theme
 
-# Force dark mode
-moonwalk:
-  appearance: "dark"
 
 # Navigation menu
 navigation:

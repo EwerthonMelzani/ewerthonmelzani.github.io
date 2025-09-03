@@ -5,12 +5,7 @@ author: "Ewerthon Melzani"
 baseurl: "" # leave empty for GitHub Pages repo
 url: "https://ewerthonmelzani.github.io"
 
-# Theme
-remote_theme: abhinavs/moonwalk
-
-# Plugins
-plugins:
-  - jekyll-remote-theme
+remote_theme: kitian616/jekyll-TeXt-theme  # Example for TeXt theme
 
 
 # Navigation menu

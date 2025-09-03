@@ -1,0 +1,12 @@
+/* Replace the green top bar with an image */
+.site-header {
+  background: url('/assets/images/background.jpg') no-repeat center center;
+  background-size: cover; /* scale image to full width */
+  height: 80px;           /* adjust height as needed */
+}
+
+/* Optional: remove default border/shadow if present */
+.site-header {
+  border-bottom: none;
+  box-shadow: none;
+}

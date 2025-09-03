@@ -1,3 +1,41 @@
-theme: jekyll-theme-cayman
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+# Site settings
+title: "Ewerthon’s Projects"
+description: "A collection of my personal projects and updates"
+author: "Ewerthon Melzani"
+email: "ervithon@gmail.com"
+baseurl: "" # Leave empty for personal GitHub Pages repo
+url: "https://ewerthonmelzani.github.io" # Change if you use a custom domain
+
+# Theme settings
+remote_theme: abhinavs/moonwalk
+
+# Plugins (required for remote_theme)
+plugins:
+  - jekyll-remote-theme
+
+# Navigation (top menu)
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Projects"
+    url: /projects/
+  - title: "Blog"
+    url: /blog/
+  - title: "About"
+    url: /about/
+
+# Social links (optional)
+social_links:
+  github: "https://github.com/ewerthonmelzani"
+  linkedin: "https://linkedin.com/in/YOUR-LINK"
+  twitter: "https://twitter.com/YOUR-LINK"
+
+# Collections (for project pages)
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge

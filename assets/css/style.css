@@ -41,17 +41,16 @@ nav {
 
 
 .banner-container {
-  width: 100vw;
+  width: 100%;         /* full width */
+  height: 250px;       /* stripe height (adjust as needed) */
+  overflow: hidden;    /* hides top/bottom */
   position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
 }
 
 .banner-image {
   width: 100%;
-  height: 100px;
+  height: auto;
   object-position: center;
   display: block;
+  top: -100px;
 }

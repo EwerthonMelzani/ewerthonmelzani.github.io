@@ -9,12 +9,19 @@ body {
 
 /* Header / Navigation */
 header {
-  padding: 1rem 2rem;
   background-color: #1c1c1c;
   border-bottom: 1px solid #333;
 }
 
-nav a {
+nav {
+  display: flex;
+  justify-content: space-between; /* left menu left, social icons right */
+  align-items: center;
+  padding: 1.5rem 3rem; /* bigger navbar */
+}
+
+/* Left menu links */
+.nav-left a {
   color: #e0e0e0;
   margin-right: 1.5rem;
   text-decoration: none;
@@ -22,7 +29,19 @@ nav a {
   transition: color 0.3s;
 }
 
-nav a:hover {
+.nav-left a:hover {
+  color: #4a90e2;
+}
+
+/* Right social icons */
+.nav-right a {
+  color: #e0e0e0;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.nav-right a:hover {
   color: #4a90e2;
 }
 
@@ -59,19 +78,20 @@ section {
   border: 1px solid #333;
 }
 
-
-
-.social-icons {
-  margin-left: 2rem;
+/* Full-width images */
+.full-width-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 
-.social-icons a {
-  color: #e0e0e0;
-  margin-right: 1rem;
-  font-size: 1.2rem;
-  transition: color 0.3s;
-}
 
-.social-icons a:hover {
-  color: #4a90e2;
+.full-width-image {
+  width: 100%;
+  height: auto; /* maintains aspect ratio */
+  display: block;
+  margin: 0;
+  padding: 0;
 }

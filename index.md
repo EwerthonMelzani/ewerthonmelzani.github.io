@@ -11,12 +11,11 @@ This is my personal site where I share my projects and updates.
 
 ## 🔗 Navigation
 - [Projects](/projects/)
-- [Blog](/blog/)
-- [About](/about/)
+- [CV](/cv/)
+- [Contact](/Contact/)
 
 ---
 
 ## 🌍 Social
 - [GitHub](https://github.com/ewerthonmelzani)
-- [LinkedIn](https://linkedin.com/in/YOUR-LINK)
-- [Twitter](https://twitter.com/YOUR-LINK)
+- [LinkedIn](https://www.linkedin.com/in/ewerthon-melzani-22b085298/)

@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "Projects"
+title: Projects
 permalink: /projects/
 ---
-
+# Projects
+List your projects here.

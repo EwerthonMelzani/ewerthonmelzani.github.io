@@ -1,97 +1,56 @@
-/* Global body */
 body {
-  font-family: 'Times New Roman', Times, serif;
-  background-color: #121212;
-  color: #e0e0e0;
+  font-family: 'Georgia', serif;         /* Elegant serif font */
+  background-color: #f9f9f9;             /* Light, clean background */
+  color: #333333;                        /* Dark text for high readability */
   margin: 0;
   padding: 0;
 }
 
-/* Header / Navigation */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
 header {
-  background-color: #1c1c1c;
-  border-bottom: 1px solid #333;
+  background-color: #ffffff;
+  padding: 1rem 0;
+  border-bottom: 1px solid #dddddd;
 }
 
 nav {
+  max-width: 800px;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-between; /* left menu left, social icons right */
+  justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 3rem; /* bigger navbar */
 }
 
-/* Left menu links */
-.nav-left a {
-  color: #e0e0e0;
-  margin-right: 1.5rem;
-  text-decoration: none;
-  font-weight: normal;
-  transition: color 0.3s;
-}
-
-.nav-left a:hover {
-  color: #4a90e2;
-}
-
-/* Right social icons */
+.nav-left a,
 .nav-right a {
-  color: #e0e0e0;
-  margin-left: 1rem;
-  font-size: 1.2rem;
-  transition: color 0.3s;
-}
-
-.nav-right a:hover {
-  color: #4a90e2;
-}
-
-/* Main content */
-main {
-  padding: 2rem;
-  line-height: 1.6;
-}
-
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  color: #ffffff;
-  margin-top: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-/* Links inside content */
-a {
-  color: #4a90e2;
+  color: #333333;
+  margin-right: 1rem;
   text-decoration: none;
-  transition: color 0.3s;
+  font-size: 1rem;
 }
 
-a:hover {
-  color: #80c1ff;
+.nav-left a:hover,
+.nav-right a:hover {
+  text-decoration: underline;
 }
 
-/* Sections / cards */
-section {
-  background-color: #1a1a1a;
-  padding: 1rem;
-  margin-bottom: 1.5rem;
-  border-radius: 5px;
-  border: 1px solid #333;
+
+.banner-container {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 
-/* Full-width images */
-.full-width-image {
+.banner-image {
   width: 100%;
   height: auto;
   display: block;
-  margin: 0;
-  padding: 0;
-}
-
-
-.full-width-image {
-  width: 100%;
-  height: auto; /* maintains aspect ratio */
-  display: block;
-  margin: 0;
-  padding: 0;
 }

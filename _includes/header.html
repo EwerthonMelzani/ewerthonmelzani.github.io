@@ -1,0 +1,16 @@
+<header>
+  <nav>
+    <div class="nav-left">
+      {% for item in site.data.navigator.main %}
+        <a href="{{ item.url }}">{{ item.title }}</a>
+      {% endfor %}
+    </div>
+    <div class="nav-right">
+      {% for social in site.data.navigator.social %}
+        <a href="{{ social.url }}" target="_blank" title="{{ social.title }}">
+          <i class="{{ social.icon }}"></i>
+        </a>
+      {% endfor %}
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,29 @@
+/* --- Black top bar --- */
+.masthead,
+.greedy-nav {
+  background: #000 !important;
+  border-bottom: none !important;
+}
+
+/* nav items + site title in white */
+.greedy-nav a,
+.site-title,
+.site-subtitle,
+.masthead__menu-item {
+  color: #fff !important;
+}
+
+/* hamburger and icon lines on mobile */
+.greedy-nav .toggle,
+.greedy-nav .navicon,
+.greedy-nav .navicon::before,
+.greedy-nav .navicon::after {
+  background: #fff !important;
+  color: #fff !important;
+}
+
+/* subtle hover */
+.greedy-nav a:hover,
+.masthead__menu-item:hover {
+  opacity: 0.85;
+}

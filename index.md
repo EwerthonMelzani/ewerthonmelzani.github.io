@@ -4,7 +4,7 @@ title: "Home"
 ---
 
 <div class="banner-container">
-  <img src="/assets/images/background.jpg" alt="Banner" class="banner-image">
+  <img src="/assets/images/background.jpg" alt="" class="banner-image">
 </div>
 
 # Home Page

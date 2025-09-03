@@ -5,6 +5,8 @@ main:
     url: /projects/
   - title: Contact
     url: /contact/
+  - title: Codes
+    url: https://github.com/EwerthonMelzani
 
 social:
   - title: GitHub

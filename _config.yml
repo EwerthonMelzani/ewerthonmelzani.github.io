@@ -6,7 +6,7 @@ baseurl: "" # leave empty for personal site repo
 url: "https://ewerthonmelzani.github.io"
 
 
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
 

@@ -2,21 +2,26 @@
 title: "Ewerthon’s Projects"
 description: "A collection of my personal projects and updates"
 author: "Ewerthon Melzani"
-baseurl: "" # leave empty for personal site repo
+baseurl: "" # leave empty for personal repo
 url: "https://ewerthonmelzani.github.io"
 
+# Built-in GitHub Pages theme
+theme: jekyll-theme-cayman
 
-remote_theme: "mmistakes/minimal-mistakes"
-plugins:
-  - jekyll-include-cache
+# Navigation (Cayman does not automatically use this; we'll add manually in pages)
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Projects"
+    url: /projects/
+  - title: "CV"
+    url: /cv/
+  - title: "Contact"
+    url: /contact/
+  - title: "About"
+    url: /about/
 
-# load extra CSS (we’ll create this file next)
-custom_css:
-  - /assets/css/custom.css
-
-
-
-# Social links (these WILL display on homepage if you add them in index.md)
+# Social links (for reference)
 social_links:
   github: "https://github.com/ewerthonmelzani"
   linkedin: "https://www.linkedin.com/in/ewerthon-melzani-22b085298/"

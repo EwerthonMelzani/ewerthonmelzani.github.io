@@ -1,8 +1,8 @@
 /* Global body */
 body {
-  font-family: 'Times New Roman', Times, serif; /* Times New Roman font */
-  background-color: #121212; /* Dark background like Tor Navigator */
-  color: #e0e0e0; /* Light gray text for readability */
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #121212;
+  color: #e0e0e0;
   margin: 0;
   padding: 0;
 }
@@ -10,12 +10,12 @@ body {
 /* Header / Navigation */
 header {
   padding: 1rem 2rem;
-  background-color: #1c1c1c; /* Slightly lighter dark header */
-  border-bottom: 1px solid #333; /* subtle separator line */
+  background-color: #1c1c1c;
+  border-bottom: 1px solid #333;
 }
 
 nav a {
-  color: #e0e0e0; /* light gray links */
+  color: #e0e0e0;
   margin-right: 1.5rem;
   text-decoration: none;
   font-weight: normal;
@@ -23,7 +23,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #4a90e2; /* Futuristic blue hover effect */
+  color: #4a90e2;
 }
 
 /* Main content */
@@ -50,7 +50,7 @@ a:hover {
   color: #80c1ff;
 }
 
-/* Optional: cards or sections */
+/* Sections / cards */
 section {
   background-color: #1a1a1a;
   padding: 1rem;

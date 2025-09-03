@@ -1,28 +1,15 @@
-# Site settings
-title: "Ewerthon’s Projects"
-description: "A collection of my personal projects and updates"
-author: "Ewerthon Melzani"
-baseurl: "" # leave empty for personal repo
-url: "https://ewerthonmelzani.github.io"
-
-# Built-in GitHub Pages theme
-theme: jekyll-theme-cayman
-
-# load custom CSS
-custom_css:
-  - /assets/css/custom.css
+title: Ewerthon Melzani
+description: "Personal website using Tor Navigator-inspired style"
+baseurl: "" # user GitHub Pages site
+url: "https://EwerthonMelzani.github.io"
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 
-# Navigation (Cayman does not automatically use this; we'll add manually in pages)
-navigation:
-  - title: "Home"
-    url: /
-  - title: "Projects"
-    url: /projects/
-  - title: "Contact"
-    url: /contact/
-  - title: "About"
-    url: /about/
+
 
 # Social links (for reference)
 social_links:

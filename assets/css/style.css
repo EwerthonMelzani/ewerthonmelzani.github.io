@@ -1,26 +1,60 @@
+/* Global body */
 body {
-  font-family: 'Computer Modern Roman', serif;
-  background: linear-gradient(135deg, #0a0f2e, #0f3ca5); /* darker futuristic version */
-  color: #30c122;
+  font-family: 'Times New Roman', Times, serif; /* Times New Roman font */
+  background-color: #121212; /* Dark background like Tor Navigator */
+  color: #e0e0e0; /* Light gray text for readability */
   margin: 0;
   padding: 0;
 }
 
-
-
+/* Header / Navigation */
+header {
+  padding: 1rem 2rem;
+  background-color: #1c1c1c; /* Slightly lighter dark header */
+  border-bottom: 1px solid #333; /* subtle separator line */
+}
 
 nav a {
-  color: #fff;
-  margin-right: 1rem;
+  color: #e0e0e0; /* light gray links */
+  margin-right: 1.5rem;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
+  transition: color 0.3s;
 }
 
-header {
-  padding: 1rem;
-  background-color: rgba(0,0,0,0.3);
+nav a:hover {
+  color: #4a90e2; /* Futuristic blue hover effect */
 }
 
+/* Main content */
 main {
   padding: 2rem;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Links inside content */
+a {
+  color: #4a90e2;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #80c1ff;
+}
+
+/* Optional: cards or sections */
+section {
+  background-color: #1a1a1a;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+  border: 1px solid #333;
 }

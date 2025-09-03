@@ -5,9 +5,9 @@ author: "Ewerthon Melzani"
 baseurl: "" # leave empty for personal site repo
 url: "https://ewerthonmelzani.github.io"
 
-# Theme
-theme: jekyll-theme-cayman
-
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-include-cache
 
 # Navigation menu
 navigation:

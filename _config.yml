@@ -2,22 +2,21 @@
 title: "Ewerthon’s Projects"
 description: "A collection of my personal projects and updates"
 author: "Ewerthon Melzani"
-email: "ervithon@gmail.com"
-baseurl: "" # Leave empty for personal GitHub Pages repo
-url: "https://ewerthonmelzani.github.io" # Change if you use a custom domain
+baseurl: "" # leave empty for GitHub Pages repo
+url: "https://ewerthonmelzani.github.io"
 
-# Theme settings
+# Theme
 remote_theme: abhinavs/moonwalk
 
-# Plugins (required for remote_theme)
+# Plugins
 plugins:
   - jekyll-remote-theme
 
+# Force dark mode
 moonwalk:
   appearance: "dark"
 
-
-# Navigation (top menu)
+# Navigation menu
 navigation:
   - title: "Home"
     url: /
@@ -28,18 +27,8 @@ navigation:
   - title: "About"
     url: /about/
 
-# Social links (optional)
+# Social links (these WILL display on homepage if you add them in index.md)
 social_links:
   github: "https://github.com/ewerthonmelzani"
   linkedin: "https://linkedin.com/in/YOUR-LINK"
   twitter: "https://twitter.com/YOUR-LINK"
-
-# Collections (for project pages)
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
-
-# Markdown settings
-markdown: kramdown
-highlighter: rouge

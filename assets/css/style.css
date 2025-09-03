@@ -42,6 +42,8 @@ nav {
 
 .banner-container {
   width: 100vw;
+  height: 50px;          /* only show 50px stripe */
+  overflow: hidden;      /* hide the rest of the image */
   position: relative;
   left: 50%;
   right: 50%;
@@ -52,8 +54,7 @@ nav {
 .banner-image {
   width: 100%;
   height: auto;
-  object-position: center;
   display: block;
-  top: -10px;
-  bottom: 20px;
+  position: relative;
+  top: -100px;           /* shift image upward to show 100–150px portion */
 }

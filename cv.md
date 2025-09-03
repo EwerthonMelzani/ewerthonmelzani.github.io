@@ -1,7 +1,11 @@
 ---
 layout: page
-title: "About"
-permalink: /about/
+title: "CV"
+permalink: /cv/
 ---
 
-This is the about page lets test to see if it is working!!
+# CV
+
+Here is my CV file if you have any insteressting in contact me
+
+

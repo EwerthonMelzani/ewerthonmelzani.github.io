@@ -21,10 +21,11 @@ navigation:
     url: /
   - title: "Projects"
     url: /projects/
-  - title: "Blog"
-    url: /blog/
-  - title: "About"
-    url: /about/
+  - title: "CV"
+    url: /cv/
+  - title: "Contact"
+    url: /contact/
+
 
 # Social links (these WILL display on homepage if you add them in index.md)
 social_links:

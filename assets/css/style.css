@@ -58,3 +58,15 @@ nav {
   position: relative;
   top: -100px;           /* shift image upward to show 100–150px portion */
 }
+
+
+.contact-icons a {
+  font-size: 3rem;   /* increase size (default was ~1rem) */
+  margin: 0 1rem;
+  color: #333333;
+  transition: color 0.3s;
+}
+
+.contact-icons a:hover {
+  color: #4a90e2;
+}

@@ -44,7 +44,7 @@ nav {
   width: 100vw;
   height: 100px;
   overflow: hidden;
-  border: 2px solid red; /* TEMPORARY for debugging */
+  border: 2px solid black; /* TEMPORARY for debugging */
 }
 
 

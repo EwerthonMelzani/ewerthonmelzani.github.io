@@ -15,17 +15,6 @@ custom_css:
   - /assets/css/custom.css
 
 
-# Navigation menu
-navigation:
-  - title: "Home"
-    url: /
-  - title: "Projects"
-    url: /projects/
-  - title: "CV"
-    url: /cv/
-  - title: "Contact"
-    url: /contact/
-
 
 # Social links (these WILL display on homepage if you add them in index.md)
 social_links:

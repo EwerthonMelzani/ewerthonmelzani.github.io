@@ -8,14 +8,17 @@ url: "https://ewerthonmelzani.github.io"
 # Built-in GitHub Pages theme
 theme: jekyll-theme-cayman
 
+# load custom CSS
+custom_css:
+  - /assets/css/custom.css
+
+
 # Navigation (Cayman does not automatically use this; we'll add manually in pages)
 navigation:
   - title: "Home"
     url: /
   - title: "Projects"
     url: /projects/
-  - title: "CV"
-    url: /cv/
   - title: "Contact"
     url: /contact/
   - title: "About"

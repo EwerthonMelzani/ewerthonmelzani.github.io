@@ -13,6 +13,10 @@ remote_theme: abhinavs/moonwalk
 plugins:
   - jekyll-remote-theme
 
+moonwalk:
+  appearance: "dark"
+
+
 # Navigation (top menu)
 navigation:
   - title: "Home"

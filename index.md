@@ -19,3 +19,4 @@ This is my personal site where I share my projects and updates.
 ## 🌍 Social
 - [GitHub](https://github.com/ewerthonmelzani)
 - [LinkedIn](https://www.linkedin.com/in/ewerthon-melzani-22b085298/)
+- [Personal_Email](mailto:ervithon@gmail.com)

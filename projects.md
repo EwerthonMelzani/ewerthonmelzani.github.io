@@ -58,7 +58,7 @@ banner: /assets/images/background.jpg
 
   <!-- Project 4 -->
   <div class="project-card">
-    <h2>Casual Project in C</h2>
+    <h2>Data Structures in C(Casual Project)</h2>
     <p>As the name says, sometimes me and my friends implement data structures in C and solve exercises on LeetCode.</p>
      <div class="project-icons">
     <i class="fab fa-c" title="C"></i>

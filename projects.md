@@ -40,7 +40,7 @@ banner: /assets/images/background.jpg
   </div>
 
   <div class="project-image-container">
-    <img src="/assets/images/profile.png" alt="Project 2 image" class="project-image">
+    <img src="/assets/images/chanvelse.png" alt="Project 2 image" class="project-image">
     <a href="https://github.com/Sh3xe/edge-detector" class="read-more-link">Github</a>
   </div>
   </div>

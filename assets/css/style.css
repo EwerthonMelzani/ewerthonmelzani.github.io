@@ -59,13 +59,13 @@ body {
 .nav-links a,
 .nav-social a {
   color: white;
-  font-weight: bold;
+  font-weight: 1.5rem;
   text-decoration: none;
 }
 
 .nav-links a:hover,
 .nav-social a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* BANNER TITLE */

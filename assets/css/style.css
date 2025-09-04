@@ -1,10 +1,18 @@
 /* GLOBAL STYLES */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* prevents horizontal scroll gaps */
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: 'Georgia', serif;
   background-color: #f9f9f9;
   color: #333333;
-  margin: 0;
-  padding: 0;
 }
 
 .container {
@@ -16,9 +24,11 @@ body {
 /* BANNER (TOPBAR IMAGE) */
 .banner {
   position: relative;
-  height: 400px; /* adjust */
+  width: 100%;              /* full width, not 100vw */
+  height: 400px;            /* adjust height as needed */
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,11 +50,33 @@ body {
   position: absolute;
   top: 0;
   width: 100%;
-  padding: 1rem 2rem;
+  z-index: 2;
+}
+
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 2;
+  padding: 1rem clamp(1rem, 4vw, 2rem);
+  width: 100%;
+}
+
+/* LEFT: Home (bigger) */
+.nav-left a {
+  color: white;
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.nav-left a:hover {
+  text-decoration: underline;
+}
+
+/* RIGHT: other links + icons */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .nav-links,
@@ -59,13 +91,13 @@ body {
 .nav-links a,
 .nav-social a {
   color: white;
-  font-weight: 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
   text-decoration: none;
 }
-
 .nav-links a:hover,
 .nav-social a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* BANNER TITLE */
@@ -75,6 +107,7 @@ body {
   font-size: 2.5rem;
   font-weight: bold;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+  margin: 0;
 }
 
 /* CONTACT ICONS (OPTIONAL) */
@@ -84,7 +117,6 @@ body {
   color: #333333;
   transition: color 0.3s;
 }
-
 .contact-icons a:hover {
   color: #4a90e2;
 }

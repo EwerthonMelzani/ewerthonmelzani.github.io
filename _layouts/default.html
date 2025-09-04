@@ -5,29 +5,45 @@
   <title>{{ page.title }} | {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
   <!-- Banner with nav + title -->
   <div class="banner" style="background-image: url('{{ page.banner }}');">
     <header class="site-header">
-      <nav>
-        <ul class="nav-links">
-          {% for item in site.data.navigator.main %}
-            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-          {% endfor %}
-        </ul>
-        <ul class="nav-social">
-          {% for item in site.data.navigator.social %}
-            <li>
-              <a href="{{ item.url }}" target="_blank">
-                <i class="{{ item.icon }}"></i>
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
+      <nav class="navbar">
+        <!-- LEFT: Home (bigger) -->
+        <div class="nav-left">
+          {% assign home = site.data.navigator.main | where: "title", "Home" | first %}
+          <a class="brand-home" href="{{ home.url | default: '/' }}">
+            {{ home.title | default: 'Home' }}
+          </a>
+        </div>
+
+        <!-- RIGHT: other links + social -->
+        <div class="nav-right">
+          <ul class="nav-links">
+            {% for item in site.data.navigator.main %}
+              {% unless item.title == "Home" %}
+                <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+              {% endunless %}
+            {% endfor %}
+          </ul>
+          <ul class="nav-social">
+            {% for item in site.data.navigator.social %}
+              <li>
+                <a href="{{ item.url }}" target="_blank" aria-label="{{ item.title }}">
+                  <i class="{{ item.icon }}"></i>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
       </nav>
     </header>
 
+    <!-- Centered page title on the banner -->
     <h1 class="banner-title">{{ page.title }}</h1>
   </div>
 

@@ -70,7 +70,7 @@ banner: /assets/images/background.jpg
     </div>
 
   <div class="project-image-container">
-    <img src="/assets/images/profile.png" alt="Project 4 image" class="project-image">
+    <img src="/assets/images/c.png" alt="Project 4 image" class="project-image">
     <a href="https://github.com/EwerthonMelzani/Friends_of_C" class="read-more-link">Github</a>
   </div>
   </div>

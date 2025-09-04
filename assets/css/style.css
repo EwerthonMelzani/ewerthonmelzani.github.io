@@ -29,7 +29,7 @@ body {
   width: 100%;              /* Full width, covers horizontally */
   height: auto;             /* Remove fixed height to allow aspect-ratio control */
   aspect-ratio: 4 / 1;      /* Set a wide aspect ratio (e.g., 4/1 or 16/9) to keep the banner short. Adjust this ratio (e.g., 3/1 or 5/1) to match your desired look on desktop. This ensures consistent cropping across devices. */
-  max-height: 400px;        /* Optional: Caps height at 300px for very wide screens, but may slightly affect cropping on ultra-wide displays. */
+  max-height: 400px;        /* Optional: Caps height at 400px for very wide screens, but may slightly affect cropping on ultra-wide displays. */
   background-size: cover;
   background-position: 50% 22%;  /* Centers horizontally (50%) and focuses vertically (50% for center). Adjust the vertical % to target a specific "stripe" (e.g., 50% 0% for top, 50% 100% for bottom, or 50% 20% for an upper portion). */
   background-repeat: no-repeat;

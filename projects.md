@@ -14,13 +14,17 @@ banner: /assets/images/background.jpg
 
   <!-- Project 1 -->
   <div class="project-card">
-    <h2>Computer Vision with Classical Methods</h2>
-    <p>A short description of project one goes here.</p>
-    <div class="project-icons">
-      <i class="fab fa-cuttlefish" title="C++"></i> <!-- Example icon for C++ -->
-    </div>
-    <p><a href="/projects/project-one/">Read more</a></p>
+  <h2>Computer Vision with Classical Methods</h2>
+  <p>A short description of project one goes here.</p>
+
+  <div class="project-icons">
+    <i class="fab fa-cuttlefish" title="C++"></i>
+  </div>
+
+  <div class="project-image-container">
     <img src="/assets/images/profile.png" alt="Project 1 image" class="project-image">
+    <a href="/projects/project-one/" class="read-more-link">Read more</a>
+  </div>
   </div>
 
   <!-- Project 2 -->

@@ -8,15 +8,6 @@ banner: /assets/images/background.jpg
 
 
 
-
-
-
-
-
-
-
-
-
 <div style="text-align:center; margin-bottom: 2rem;">
   <h1>Projects</h1>
   <p>Welcome to my projects section! Here you can find a brief overview of my work. Click on each project to see more details.</p>
@@ -30,6 +21,7 @@ banner: /assets/images/background.jpg
     <p>A short description of project two goes here.</p>
     <div class="project-icons">
     <i class="devicon-python-plain colored" title="Python"></i>
+    <i class="devicon-jupyter-plain colored" title="JAX"></i>
     </div>
 
   <div class="project-image-container">

@@ -21,13 +21,17 @@ body {
   padding: 2rem 1rem;
 }
 
+
+
 /* BANNER (TOPBAR IMAGE) */
 .banner {
   position: relative;
-  width: 100%;              /* full width, not 100vw */
-  height: 300px;            /* adjust height as needed */
+  width: 100%;              /* Full width, covers horizontally */
+  height: auto;             /* Remove fixed height to allow aspect-ratio control */
+  aspect-ratio: 4 / 1;      /* Set a wide aspect ratio (e.g., 4/1 or 16/9) to keep the banner short. Adjust this ratio (e.g., 3/1 or 5/1) to match your desired look on desktop. This ensures consistent cropping across devices. */
+  max-height: 300px;        /* Optional: Caps height at 300px for very wide screens, but may slightly affect cropping on ultra-wide displays. */
   background-size: cover;
-  background-position: center;
+  background-position: 50% 50%;  /* Centers horizontally (50%) and focuses vertically (50% for center). Adjust the vertical % to target a specific "stripe" (e.g., 50% 0% for top, 50% 100% for bottom, or 50% 20% for an upper portion). */
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -41,9 +45,10 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(0, 0, 0, 0.35); /* Overlay for darkening effect */
   z-index: 1;
 }
+
 
 /* NAVIGATION */
 .site-header {
@@ -118,5 +123,68 @@ body {
   transition: color 0.3s;
 }
 .contact-icons a:hover {
+  color: #4a90e2;
+}
+
+
+
+
+
+
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem 0;
+  justify-content: center;
+}
+
+.project-card {
+  flex: 1 1 300px; /* responsive width */
+  max-width: 350px;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.project-card h2 {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #4a90e2;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;      /* fixed height for consistency */
+  object-fit: cover;   /* keeps image proportion and fills area */
+  border-radius: 8px;
+}
+
+.project-icons {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+.project-icons i {
+  transition: transform 0.3s, color 0.3s;
+}
+.project-icons i:hover {
+  transform: scale(1.2);
   color: #4a90e2;
 }

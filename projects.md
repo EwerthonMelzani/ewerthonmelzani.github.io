@@ -6,5 +6,4 @@ banner: /assets/images/background.jpg
 ---
 
 
-# Projects
-List your projects here.
+HERE IS A VERY IMPORTANT SECTION!!!

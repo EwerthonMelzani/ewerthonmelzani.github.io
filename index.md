@@ -1,6 +1,7 @@
 ---
 layout: home
 title: "Home"
+banner: /assets/images/background.jpg
 ---
 
 

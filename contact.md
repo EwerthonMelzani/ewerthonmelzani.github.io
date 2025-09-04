@@ -2,6 +2,8 @@
 layout: page
 title: "Contact:"
 permalink: /contact/
+banner: /assets/images/background.jpg
+
 ---
 
 <div style ="text-align:center">

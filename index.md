@@ -5,7 +5,7 @@ banner: /assets/images/background.jpg
 ---
 
 <div style="text-align:center">
-  <p>Welcome to my home page, feel free to look at my projects and contact me in the header.<br>
+  <p>Welcome to my home page, fell free to look at my projects and contact me in the header.<br>
   I wish you a good time and fun.</p>
 </div>
 

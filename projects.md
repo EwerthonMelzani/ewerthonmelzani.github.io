@@ -12,22 +12,7 @@ banner: /assets/images/background.jpg
 
 <div class="projects-container">
 
-  <!-- Project 1 -->
-  <div class="project-card">
-  <h2>Computer Vision with Classical Methods</h2>
-  <p>A short description of project one goes here.</p>
-
-  <div class="project-icons">
-    <i class="fab fa-cuttlefish" title="C++"></i>
-  </div>
-
-  <div class="project-image-container">
-    <img src="/assets/images/profile.png" alt="Project 1 image" class="project-image">
-    <a href="/projects/project-one/" class="read-more-link">Read more</a>
-  </div>
-  </div>
-
-  <!-- Project 2 -->
+<!-- Project 1 -->
   <div class="project-card">
     <h2>Generative Models and Inverse Problems</h2>
     <p>A short description of project two goes here.</p>
@@ -37,9 +22,25 @@ banner: /assets/images/background.jpg
 
   <div class="project-image-container">
     <img src="/assets/images/profile.png" alt="Project 1 image" class="project-image">
-    <a href="/projects/project-one/" class="read-more-link">Read more</a>
+    <a href="https://github.com/EwerthonMelzani/PRE_Compressed_Sensing_using_Generative_Models" class="read-more-link">Github</a>
   </div>
   </div>
+
+  <!-- Project 2 -->
+  <div class="project-card">
+  <h2>Computer Vision with Classical Methods</h2>
+  <p>A short description of project one goes here.</p>
+
+  <div class="project-icons">
+    <i class="fab fa-cuttlefish" title="C++"></i>
+  </div>
+
+  <div class="project-image-container">
+    <img src="/assets/images/profile.png" alt="Project 2 image" class="project-image">
+    <a href="https://github.com/Sh3xe/edge-detector" class="read-more-link">Github</a>
+  </div>
+  </div>
+
 
   <!-- Project 3 -->
   <div class="project-card">
@@ -50,8 +51,8 @@ banner: /assets/images/background.jpg
   </div>
 
   <div class="project-image-container">
-    <img src="/assets/images/profile.png" alt="Project 1 image" class="project-image">
-    <a href="/projects/project-one/" class="read-more-link">Read more</a>
+    <img src="/assets/images/profile.png" alt="Project 3 image" class="project-image">
+    <a href="https://github.com/EwerthonMelzani/Stable_Diffusion" class="read-more-link">Github</a>
   </div>
   </div>
 
@@ -64,8 +65,8 @@ banner: /assets/images/background.jpg
   </div>
 
   <div class="project-image-container">
-    <img src="/assets/images/profile.png" alt="Project 1 image" class="project-image">
-    <a href="/projects/project-one/" class="read-more-link">Read more</a>
+    <img src="/assets/images/profile.png" alt="Project 4 image" class="project-image">
+    <a href="https://github.com/EwerthonMelzani/Friends_of_C" class="read-more-link">Github</a>
   </div>
   </div>
 

@@ -25,7 +25,7 @@ body {
 .banner {
   position: relative;
   width: 100%;              /* full width, not 100vw */
-  height: 200px;            /* adjust height as needed */
+  height: 300px;            /* adjust height as needed */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

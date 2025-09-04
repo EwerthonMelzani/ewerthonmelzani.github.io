@@ -33,7 +33,7 @@ banner: /assets/images/background.jpg
   <!-- Project 2 -->
   <div class="project-card">
   <h2>Computer Vision with Classical Methods</h2>
-  <p>A short description of project one goes here.</p>
+  <p>This repository implements the method developed in "Active Contours Without Edges"(Chan-Vese Method);</p>
 
   <div class="project-icons">
   <i class="devicon-cplusplus-plain colored" title="C++"></i>

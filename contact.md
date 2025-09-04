@@ -23,3 +23,8 @@ I'm picking courses in a large range of subjects but I'm much more familiar with
     {% endfor %}
   </div>
 </div>
+
+<div>
+  <h1>My curriculum vitæ:</h1>
+  <p><a href="assets/files/Ewerthon_CV.pdf">Ewerthon's CV</a></p>
+</div>

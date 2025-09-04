@@ -31,7 +31,7 @@ body {
   aspect-ratio: 4 / 1;      /* Set a wide aspect ratio (e.g., 4/1 or 16/9) to keep the banner short. Adjust this ratio (e.g., 3/1 or 5/1) to match your desired look on desktop. This ensures consistent cropping across devices. */
   max-height: 300px;        /* Optional: Caps height at 300px for very wide screens, but may slightly affect cropping on ultra-wide displays. */
   background-size: cover;
-  background-position: 50% 50%;  /* Centers horizontally (50%) and focuses vertically (50% for center). Adjust the vertical % to target a specific "stripe" (e.g., 50% 0% for top, 50% 100% for bottom, or 50% 20% for an upper portion). */
+  background-position: 50% 20%;  /* Centers horizontally (50%) and focuses vertically (50% for center). Adjust the vertical % to target a specific "stripe" (e.g., 50% 0% for top, 50% 100% for bottom, or 50% 20% for an upper portion). */
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -132,16 +132,28 @@ body {
 
 
 
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+  justify-items: center;
+}
+
 .project-card {
-  flex: 1 1 300px;
-  max-width: 350px;
-  padding: 1.5rem;
+  background: #fff;
   border: 1px solid #ddd;
   border-radius: 10px;
-  background-color: #fff;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 1rem;
+  width: 100%;
+  max-width: 320px; /* keeps cards consistent */
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 
 .project-card h2 {
   margin-top: 0.5rem;
@@ -157,9 +169,10 @@ body {
   font-size: 1.5rem;
 }
 
-.project-icons i.fab.fa-python { color: #306998; }       /* Python blue */
-.project-icons i.fas.fa-c { color: #555555; }           /* C gray */
-.project-icons i.fab.fa-cuttlefish { color: #f34b7d; }  /* C++ pinkish */
+
+.project-icons i.fab.fa-python { color: #3776AB; }     /* Python blue */
+.project-icons i.fab.fa-cuttlefish { color: #00599C; } /* C++ (blue tone) */
+.project-icons i.fas.fa-c { color: #555555; }          /* fallback C */
 
 .project-image-container {
   position: relative;
@@ -195,4 +208,53 @@ body {
 
 .project-image-container:hover .read-more-link {
   opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE STYLES */
+@media (max-width: 768px) {
+  /* Banner */
+  .banner {
+    aspect-ratio: 3 / 2;   /* taller aspect ratio for phones */
+    max-height: none;      /* allow full height */
+    background-position: 50% 60%; /* show more of the lower image on mobile */
+  }
+
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .nav-left a {
+    font-size: 1.5rem; /* smaller Home on mobile */
+  }
+  .nav-right {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  /* Projects container */
+  .projects-container {
+    grid-template-columns: 1fr; /* stack projects vertically on mobile */
+    gap: 1.5rem;
+    padding: 1rem 0.5rem;
+  }
+
+  .project-card {
+    max-width: 100%;
+  }
 }

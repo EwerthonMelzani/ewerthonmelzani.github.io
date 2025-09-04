@@ -78,10 +78,18 @@
     </main>
   </div>
   <script>
-  window.onbeforeunload = function () {
+  window.onbeforeunload = function (e) {
+    // Only run if staying on the same domain
+    if (e.target.activeElement && e.target.activeElement.tagName === "A") {
+      const link = e.target.activeElement.href;
+      if (link && !link.includes(window.location.hostname)) {
+        return; // Skip scroll reset for external links (like GitHub)
+      }
+    }
     window.scrollTo(0, 0);
   };
   </script>
+
 
 </body>
 </html>

@@ -16,7 +16,7 @@ body {
 /* BANNER (TOPBAR IMAGE) */
 .banner {
   position: relative;
-  height: 250px; /* adjust */
+  height: 400px; /* adjust */
   background-size: cover;
   background-position: center;
   display: flex;

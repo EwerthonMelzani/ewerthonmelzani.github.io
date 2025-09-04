@@ -35,6 +35,7 @@ body {
   align-items: center;
   color: white;
   text-align: center;
+  bottom: 100px;
 }
 
 .banner::before {
